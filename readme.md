@@ -62,13 +62,17 @@ Valid credentials for login page: (email: admin@example.com, password: 12345678)
 
 ### Exercise 2
 1. Show notifications question
-
+![notification-ask](https://github.com/Fcestau/web-indigitall/assets/54293203/c9aa89d3-bfaf-459f-a500-0df451a7ffe2)
 
 2. Push notification recived
+![push-notification](https://github.com/Fcestau/web-indigitall/assets/54293203/acfb8ee2-9851-4b13-b6ef-f8ca03b75adc)
+
 
 ### Exercise 3
 
 1. Abandonment of the registration process
+![abandonment](https://github.com/Fcestau/web-indigitall/assets/54293203/7665b9fe-8874-4793-88ca-1ddc95ce1b5e)
+
 
 
 
