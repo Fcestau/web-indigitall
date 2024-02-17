@@ -30,7 +30,7 @@ Ensure you have Node.js and npm installed on your machine. You can download them
 Clone the project's repository using the following command:
 
 ```bash
-git clone https://github.com/
+git clone https://github.com/Fcestau/web-indigitall.git
 ```
 
 ## Usage
