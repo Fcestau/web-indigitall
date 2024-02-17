@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../shared/style.css">
+        <title>Website Indigitall</title>
+        <script src="../indigitall/sdk.min.js"></script>
+    </head>
+    <body>
+        <main>
+            <nav class="navbar">
+                <a class="mr-4" href="index.html">Signup</a>
+                <a href="../login/index.html">Login</a>
+            </nav>
+            <div class="container">
+                <div class="card">
+                    <h3>SIGNUP</h3>
+                    <form>
+                        <div class="justify-start">
+                            <div class="form-group pb-4 align-left">
+                                <label class="label-100" for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group pb-4 align-left">
+                                <label class="label-100" for="email">Confirm Email</label>
+                                <input type="email" id="email2" name="email2" required>
+                            </div>
+                        </div>
+                        <div id="conditional-content"></div>
+                    </form>
+                    <button onclick="step1Submit()">Submit</button>
+                </div>
+            </div>
+            <script src="../shared/utils.js"></script>
+            <script src="signup.js"></script>
+        </main>
+    </body>
+</html>

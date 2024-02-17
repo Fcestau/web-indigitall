@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="shared/style.css">
+        <title>Website Indigitall</title>
+    </head>
+    <body>
+        <main>
+            <nav class="navbar">
+                <a class="mr-4" href="signup/index.html">Signup</a>
+                <a href="login/index.html">Login</a>
+            </nav>
+            <div class="container">
+                <div class="card">
+                    <h1>HOME</h1>
+                </div>
+            </div>
+        </main>
+        <script src="indigitall/sdk.min.js" onload="indigitall.init({
+            appKey: '94cb9c3e-0749-450f-8445-49bf2b269d8a',
+            workerPath: 'indigitall/worker.min.js',
+            logLevel: indigitall.LogLevel.DEBUG,
+            requestLocation: true})" async>
+        </script>
+    </body>
+    
+</html>
